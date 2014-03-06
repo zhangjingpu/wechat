@@ -1,0 +1,109 @@
+html, body, div, iframe{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%; 
+}
+html{
+	overflow: hidden;
+	box-sizing: border-box;
+	border: 1px solid #1D1D1D;
+}
+#loading{
+	top: 35px;
+	text-align: center;
+	position: absolute;
+	-webkit-app-region: drag;
+	background: #4E5359 url(../images/background.png) repeat 0 0;
+}			
+#chrome{
+	height: 35px;
+	width: 100%;								
+	text-align: right;
+	position: absolute;
+	-webkit-user-select: none;
+	background: #4E5359 url(../images/background.png) repeat 0 0;
+}
+#chrome a{
+	width: 24px;
+	height: 20px;
+	margin-top: 8px;
+	display: inline-block;				
+	background: url(../images/button.png) no-repeat;
+}
+#drag{
+	width: 90%;
+	float: left;
+	-webkit-app-region: drag;
+}
+#buttons{
+	width: 10%;
+	float: right;
+}
+a#minimize{
+	background-position: 0 -72px;
+}
+a#unmaximize{
+	display:none;
+	background-position: 0 -48px;
+}
+a#maximize{
+	background-position: 0 -24px;
+}
+a#close{
+	margin-right: 10px;
+	background-position: 0 0;
+}
+a#minimize:hover{
+	background-position: 0 -168px;
+}
+a#unmaximize:hover{				
+	background-position: 0 -144px;
+}
+a#maximize:hover{
+	background-position: 0 -120px;
+}
+a#minimize:active{
+	background-position: 0 -264px;
+}
+a#unmaximize:active{				
+	background-position: 0 -240px;
+}
+a#maximize:active{
+	background-position: 0 -216px;
+}
+.spinner {			  
+	width: 70px;
+	height: 60px;
+	font-size: 10px;
+	margin: 260px auto;
+	text-align: center;
+	display: inline-block;
+	-webkit-app-region: no-drag;
+}
+.spinner > div {
+	width: 7px;
+	height: 100%;
+	margin: 0 3px 0 0;
+	display: inline-block;				
+	background-color: rgba(255, 255, 255, .8);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	-webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+}
+.spinner .rect2 {
+	-webkit-animation-delay: -1.1s;
+}
+.spinner .rect3 {
+	-webkit-animation-delay: -1.0s;
+}
+.spinner .rect4 {
+	-webkit-animation-delay: -0.9s;
+}
+.spinner .rect5 {
+	-webkit-animation-delay: -0.8s;
+}
+@-webkit-keyframes stretchdelay {
+	0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+	20% { -webkit-transform: scaleY(1.0) }
+}
