@@ -6,7 +6,7 @@
 ##### 安装包下载(windows)：
 
 * 最新版本：0.9.2(与打包的node-webkit版本号保持一致)
-* 下载地址：<a href="http://share.weiyun.com/87f5c56bd6e5bcda5436eb51b0e4f02f" target="_blank">微云</a> <a href="http://pan.baidu.com/s/1kT5Gjqf" target="_blank">百度云</a>
+* 下载地址：<a href="http://pan.baidu.com/s/1pJ2mpJ1" target="_blank">百度云</a>
 
 ##### 功能特性：
 1. 微信网页版的基本功能。
